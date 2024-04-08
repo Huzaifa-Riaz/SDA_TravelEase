@@ -1,8 +1,7 @@
-Use Case:
-
 Primary Actors:
 
 Traveler: Represents individuals who utilize the travel management platform for planning, booking, and managing their travel experiences.
+
 Travel Agency:Represents organizations or agents who offer travel services and utilize the platform to facilitate bookings and interactions with users.
 
 Secondary Actor:
