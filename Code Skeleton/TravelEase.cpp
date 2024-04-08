@@ -3,6 +3,24 @@ using namespace std;
 #include <vector>
 #include<string>
 
+/*
+                            DESCRIPTION:
+
+User Management: The system has a User class as a foundation, with specialized subclasses for Employee, Customer, and Admin.
+                  This handles authentication (login/logout) and basic user profile management.
+
+Booking System: Flight and Hotel classes inherit from an abstract Booking class.
+                The prototype pattern is used to efficiently create new bookings based on existing ones.
+
+Itinerary Management: The Itinerary class allows customers to plan their trips, including dates, destinations, a list of associated bookings, and additional notes.
+
+Reviews:Customers can leave reviews with the Review class, storing ratings and textual feedback.
+
+Payment: The Payment class handles payment details and related transactions.
+
+Administration: The Admin class (using the singleton pattern) provides functions to manage employees within the system.
+
+*/
 
 
 class User {
